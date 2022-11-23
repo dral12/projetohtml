@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    min-height: 15px;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1{
+    color: white;
+
+}
+nav{
+    background-color: red;
+    font-size: 1.2em;
+    padding: 10px;
+    margin:0px 0px 0px;
+}
+nav > a {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+main{
+    max-width:1000%;
+    min-width: 300%;
+    margin: auto;
+}
