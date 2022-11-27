@@ -2,31 +2,41 @@
     margin: 0px;
     padding: 0px;
 }
-
-
-#header .começo{
-    background-color:black ;
-    border-bottom: 4mm rgb(red);
-    font-weight: 100%;
-    height: 70px;
-    float: left;
-    position: fixed;
-    z-index: 104;
+body{
+    background-color: black;
+}
+#contener{
+    background: url();/*colocar o dominio do site*/
+    background-attachment: fixed;
 }
 
-
-#header .começo .header{
+#cabeça .main{
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+.cabeça .main .box, #contener, footer.main .fbox{
     max-width: 1500px;
 }
-
-.barra-fixa{
-    overflow: auto;
+.cabeça .main .box{
     height: 70px;
+    margin: 0 auto;
+    position: relative;
+}
+.fixo{
+    overflow:hidden;
+    height:70px;
+}
+.cabeça .main .box .logo{
+    background:white;
+    float: left;
+    padding: 18px 17px 17px;
+    text-align: center;
+    height: 100%;   
 }
 
-#header .começo .header .logo{
+.head-main-nav{
     float: left;
-    padding: 0px 0px 0px;
-    text-align: center;
-    height: 100%; 
+}
+.head-main-nav .ul.main-header{
+    float: left;
 }
