@@ -1,0 +1,16 @@
+
+#par{
+    background: rgb(57, 126, 30);
+    width: 300px;
+    margin: 95px 20px 30px 600px;
+    border-radius: 1px 90px 90px 4px;;
+}
+#impar{
+    background: gold;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 1px 2px 3px 4px ;
+}
+.oi{
+    color: green;
+}
